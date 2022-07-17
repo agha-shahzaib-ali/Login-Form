@@ -1,0 +1,66 @@
+/* CSS Reset */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url('bg2.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+.container{
+    /* border: 4px solid black; */
+    color: white;
+    position: absolute;
+    top: 23%;
+    left: 35%;
+}
+
+.container h1{
+    font-size: 40px;
+    border-bottom: 5px solid purple;
+    margin-bottom: 62px;
+    padding: 13px 155px;
+}
+.box{
+    width: 100%;
+    border-bottom: 2px solid purple;
+    margin: 24px 0px;
+    /* border: 2px solid black; */
+}
+.box input{
+    background: none;
+    text-align: left;
+    padding: 5px 10px;
+    font-size: 16px;
+    width: 75%;
+    border: none;
+    outline: none;
+    color: white;
+}
+.box i{
+    width: 25px;
+    text-align: center;
+    padding: 0 12px;
+    cursor: pointer;
+}
+.btn {
+    display: block;
+    width: 25%;
+    margin: 15px auto;
+    padding: 8px;
+    font-size: 14px;
+    cursor: pointer;
+    outline: none;
+    font-weight: bold;
+    border: 2px solid purple;
+    border-radius: 10px;
+    color: white;
+    background: none;
+}
+.btn:hover{
+    color: black;
+    background: white;
+}
+.box i:hover{
+    color: black;
+}
